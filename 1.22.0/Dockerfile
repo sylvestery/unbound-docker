@@ -94,6 +94,7 @@ RUN build_deps="curl gcc libc-dev libevent-dev libexpat1-dev libnghttp2-dev make
         --with-libevent \
         --with-libnghttp2 \
         --enable-dnstap \
+        --enable-cachedb \
         --enable-tfo-server \
         --enable-tfo-client \
         --enable-event-api \
